@@ -6,11 +6,11 @@ namespace inluppg64metod
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Tal(Math.Pow(5.6,4), 5 ^ 4))
+            Tal(2,6);
         }
-        static double Tal(double tal1,double tal2)
+        static void Tal(double tal1,double tal2)
         {
-
+            Console.WriteLine(Math.Pow(tal1,tal2));
         }
     }
 }
